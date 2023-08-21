@@ -37,7 +37,8 @@ export const adviceReducer = adviceSlice.reducer
 export const selectAdvice = state => {
     const ret = {
         id: state.advice.id,
-        advice: state.advice.advice
+        advice: state.advice.advice,
+        status: state.advice.status
     }
     return ret
 }

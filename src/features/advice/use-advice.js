@@ -5,7 +5,7 @@ import { loadAdvice, selectAdvice } from "./advice-slice"
 export const useAdvice = () => {
     const [reload, setReload] = useState(true)
     const dispatch = useDispatch()
-    let {id, advice} = useSelector(selectAdvice)
+    let {id, advice, status} = useSelector(selectAdvice)
 
     useEffect(() => {
         if (reload) {
@@ -14,5 +14,5 @@ export const useAdvice = () => {
         }
     }, [dispatch, reload])
 
-    return {id, advice, setReload}
+    return {id, advice, setReload, status}
 }

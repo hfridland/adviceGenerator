@@ -50,6 +50,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Haim Fridland](I haven't web site)
+- Website - [Haim Fridland](mailto:hfridland@shaw.ca)
 - Frontend Mentor - [@hfridland](https://www.frontendmentor.io/profile/hfridland)
 
