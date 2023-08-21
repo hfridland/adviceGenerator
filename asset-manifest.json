@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/adviceGenerator/static/css/main.827dce9e.css",
+    "main.js": "/adviceGenerator/static/js/main.f7e20453.js",
+    "static/media/Manrope-ExtraBold.ttf": "/adviceGenerator/static/media/Manrope-ExtraBold.5b0ae7100ad1d12e53c9.ttf",
+    "static/media/Manrope-SemiBold.ttf": "/adviceGenerator/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
+    "static/media/Manrope-Medium.ttf": "/adviceGenerator/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
+    "static/media/Manrope-Regular.ttf": "/adviceGenerator/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "static/media/Manrope-Bold.ttf": "/adviceGenerator/static/media/Manrope-Bold.47f6d7143da9d8c0e480.ttf",
+    "static/media/Manrope-Light.ttf": "/adviceGenerator/static/media/Manrope-Light.2bf511c25636c7d7a4ce.ttf",
+    "static/media/Manrope-ExtraLight.ttf": "/adviceGenerator/static/media/Manrope-ExtraLight.d0721272b8d9dd2d2d0f.ttf",
+    "index.html": "/adviceGenerator/index.html",
+    "static/media/icon-dice.svg": "/adviceGenerator/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/pattern-divider-desktop.svg": "/adviceGenerator/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
+    "static/media/pattern-divider-mobile.svg": "/adviceGenerator/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
+    "main.827dce9e.css.map": "/adviceGenerator/static/css/main.827dce9e.css.map",
+    "main.f7e20453.js.map": "/adviceGenerator/static/js/main.f7e20453.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.827dce9e.css",
+    "static/js/main.f7e20453.js"
+  ]
+}
