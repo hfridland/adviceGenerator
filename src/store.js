@@ -1,23 +1,10 @@
-import axios from "axios";
-import { configureStore } from "@reduxjs/toolkit";
-
-
-import * as api from './config'
-
-import { adviceReducer } from "./features/advice/advice-slice";
+import { configureStore } from '@reduxjs/toolkit'
+import adviceReducer from './slices/adviceSlice'
+import errorReducer from './slices/errorSlice'
 
 export const store = configureStore({
-    reducer: {
-        advice: adviceReducer
-    },
-    devTools: true,
-    middleware: (getDefaultMiddleware) => getDefaultMiddleware({
-        thunk: {
-            extraArgument: {
-                client: axios,
-                api
-            }
-        },
-        serializableCheck: false
-    })
+  reducer: {
+    advice: adviceReducer,
+    error: errorReducer,
+  },
 })
